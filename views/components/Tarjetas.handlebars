@@ -1,0 +1,10 @@
+{{#each productos}}
+<div class="col-md-4 my-2">
+  <div class="card border-white" style="width: 100%;">
+    <img src="/img/{{this}}.png" class="card-img-top mx-auto d-block" style="width: 5rem" alt="...">
+    <div class="card-body">
+      <a href="/Productos/{{this}}" class="btn btn-light border-primary fs-5">&#128722; {{this}}</a>
+    </div>
+  </div>
+</div>
+{{/each}}

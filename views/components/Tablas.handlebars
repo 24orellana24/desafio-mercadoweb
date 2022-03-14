@@ -1,0 +1,12 @@
+<div class="card-group">
+{{#each carrito}}
+<div class="col-md-1 mx-2 my-2">
+  <div class="card">
+    <img src="/img/{{this}}.png" class="card-img-top mx-auto d-block" style="width: 5rem" alt="...">
+    <div class="card-body">
+      <a href="/Carro/{{this}}" class="btn btn-ligth border-primary fs-5">&#x26D4;</a>
+    </div>
+  </div>
+</div>
+{{/each}}
+</div>
